@@ -1,0 +1,517 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {box-sizing: border-box;}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Codigo personalizado*/
+
+/*grilla*/
+.container_full {
+	width: 100%;
+	padding: 20px 50px;
+}
+.container {
+	width: 1170px;
+	padding: 40px 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.col20, .col40, .col60, .col80 {
+
+ padding: 0 40px;
+}
+
+.col20 {
+	width: 20%;
+}
+.col40{
+	width: 40%;
+}
+.col60 {
+	width: 60%;
+}
+
+.col80 {
+	width: 80%;
+}
+
+/*general*/
+
+.contactocontainer {
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+}
+
+a  {
+	text-decoration: none;
+	color:black;
+}
+
+h1 {
+	width: 50%;
+	display: inline-block;
+	line-height: 100%;
+	font-size: 60px;
+	text-align: center;
+ font-family: 'Monoton', cursive;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+h3 {
+	margin: auto;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.news {
+	border-top: 1px solid black;
+	margin-bottom: 20px;
+}
+
+article span {
+  display: block;
+	text-align: center;
+	font-size: 15px;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	}
+
+.tour h3 {
+	font-size: 40px;
+}
+
+ p {
+	font-family: 'Oswald', sans-serif;
+	line-height: 25px;
+  text-align: justify;
+	margin: 5px;
+	}
+
+article img {
+	display: block;
+	margin: auto;
+	padding-bottom: 20px;
+	max-width: 560px;
+}
+
+header {
+  width: 100%;
+  margin:0 auto;
+	 background-color: #e5e5e5;
+	 display: flex;
+   justify-content:space-between;
+
+  }
+
+nav {
+  width: 50%;
+  margin-top:37px;
+	}
+
+nav > ul > li {
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  display: inline-block;
+  padding:  10px;
+  color:black;
+  text-decoration: none;
+	position:relative;
+
+}
+
+nav > ul > li:hover {
+	background-color: grey;
+	opacity: 0.5;
+}
+
+
+nav li > ul > li:hover {
+    background-color: #e5e5e5;
+}
+
+nav li > ul {
+	position: absolute;
+	left: 0;
+	display: none;
+	padding: 10px;
+}
+
+nav > ul > li:nth-child(2) {
+	cursor: pointer;
+}
+
+nav ul li:hover ul {
+	display: block;
+	background-color: white;
+	margin-top: 10px;
+}
+
+nav li > ul > li {
+	padding: 15px;
+}
+
+.contactocontainer {
+	padding: 40px 0;
+}
+
+
+
+
+
+main {
+  width:100%;
+  margin:0 auto;
+  padding-bottom: 20px;
+	overflow: hidden;
+}
+
+
+/*aside*/
+aside iframe {
+	display: block;
+	margin: 30px auto;
+	width: 300px;
+	height: 200px;
+
+}
+
+
+.discografia {
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+	border: 1px solid black;
+	font-family: 'Oswald', sans-serif;
+}
+
+.discografia  td, tr, th {
+   border: 1px solid black;
+}
+
+.discografia img {
+	margin:auto;
+	padding: 10px;
+}
+
+.disco h3 {
+	border-style: none;
+	margin: auto;
+}
+.galeria {
+	width: auto;
+	text-align: center;
+	height: auto;
+}
+
+.galeria img {
+	display:inline-block;
+	width: 333px;
+	height: 250px;
+
+}
+
+th {
+	padding: 5px;
+}
+
+.discografia td:nth-child(2) {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.discografia td:nth-child(3) {
+	padding: 5px;
+	width: 450px;
+	text-align: left;
+}
+
+.discografia td {
+	vertical-align: middle;
+	text-align: center;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.discografia td > ol {
+	padding: 5px;
+	text-align: left;
+	list-style: decimal;
+	}
+
+ol li {
+padding: 5px;
+list-style-position: inside;
+font-size: 10px;
+}
+
+footer {
+  width:100%;
+  margin: 0 auto;
+  display:block;
+	background-color: #e5e5e5;
+}
+
+footer h2 {
+	font-size: 30px;
+	margin: auto;
+}
+
+
+footer li{
+  display: inline-block;
+}
+
+i {
+	margin:10px;
+}
+
+
+
+.redessociales {
+
+	text-align: center;
+
+}
+.bannerbio1 {
+	width: 100%;
+	height: 210px;
+	background-image: url("../img/bannerbio3.jpg");
+	background-size: 100%;
+  background-position-y:-110px;
+}
+
+
+.fa-facebook-square:hover {
+  color:White;
+}
+
+.fa-twitter-square:hover {
+  color:white;
+}
+
+.fa-youtube-square:hover {
+  color:white;
+}
+
+.merchan {
+	text-align: center;
+	border-style: none;
+}
+
+.merchan ul li {
+	display: inline-block;
+  width: 200px;
+	margin: 20px 20px;
+
+}
+
+.merchan img {
+	width: 100px;
+
+}
+
+
+
+.disco {
+	border: none;
+	width: auto;
+}
+
+.banbio1 {
+  height: 50%;
+  width:auto;
+}
+.tourposter  {
+	width: 70%;
+	margin: auto;
+	background-image: url("../img/villagetour.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 43%;
+}
+
+
+.tourposter h3{
+	font-family: 'Monoton', cursive;
+	font-weight: normal;
+	font-size: 50px;
+	color:white;
+  letter-spacing: 2px;
+	margin: 10%;
+
+
+
+}
+
+.tourtable {
+	width: 100%;
+	margin: auto;
+
+
+}
+.tourtable span {
+	font-family: 'Josefin Sans', sans-serif;
+	border-style: none;
+}
+.tourtable td, tr {
+	margin: auto;
+  width: auto;
+	padding: 40px;
+  border-style: none;
+  border-top: 1px solid black;
+  border-bottom:1px solid black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.fecha {
+	width: 100px;
+	text-align: center;
+	margin: auto;
+	padding: 5px;
+
+	font-size: 30px;
+
+}
+
+.hora {
+	width: 100px;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+
+	font-size: 35px;
+
+}
+
+.lugar {
+	width: 60px;
+	margin: auto;
+	text-align: center;
+}
+
+.tourtable td:nth-child(3) {
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.teatro, .provincia, .pais, .entradas {
+ padding: 10px;
+ text-align: center;
+ width: auto;
+}
+
+.teatro {
+	font-size: 30px;
+
+}
+
+.provincia {
+	font-size: 35px;
+}
+
+.pais {
+	font-size: 35px;
+}
+
+.entradas:hover {
+	background-color:  #686263;
+}
+
+.entradas {
+	font-size: 40px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	}
+
+input, textarea {
+	width: 450px;
+	margin: 10px 0;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+label {
+	font-family: 'Oswald', sans-serif;
+}
+
+.management {
+	display: flex;
+	flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+}
+
+.tel, .mail {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+
+.number {
+	margin: auto;
+}
