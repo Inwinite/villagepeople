@@ -166,6 +166,7 @@ header {
 nav {
   width: 50%;
   margin-top:37px;
+
 	}
 
 nav > ul > li {
@@ -182,11 +183,13 @@ nav > ul > li {
 nav > ul > li:hover {
 	background-color: grey;
 	opacity: 0.5;
+	transition: background-color 0.5s ease-in;
 }
 
 
 nav li > ul > li:hover {
     background-color: #e5e5e5;
+		transition: background-color 0.5s ease-in;
 }
 
 nav li > ul {
@@ -341,17 +344,12 @@ i {
 }
 
 
-.fa-facebook-square:hover {
+.fa-facebook-square:hover, .fa-twitter-square:hover, .fa-youtube-square:hover    {
   color:White;
+	transition: color 0.5s ease-in;
 }
 
-.fa-twitter-square:hover {
-  color:white;
-}
 
-.fa-youtube-square:hover {
-  color:white;
-}
 
 .merchan {
 	text-align: center;
