@@ -51,7 +51,7 @@ table {
 
 .container {
   width: 1170px;
-  padding: 40px 0;
+
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -80,7 +80,6 @@ table {
 /*general*/
 
 
-
 a {
   text-decoration: none;
   color: black;
@@ -100,6 +99,7 @@ h2 {
   font-family: 'Shrikhand', cursive;
   text-align: center;
   margin-bottom: 30px;
+	padding: 40px 0;
 }
 
 h3 {
@@ -111,13 +111,16 @@ h3 {
   padding-bottom: 20px;
 }
 
+span {
+	font-family: Oswald;
+}
 
 article span {
   display: block;
   text-align: center;
   font-size: 15px;
   width: 100%;
-  font-family: 'Oswald', sans-serif;
+
 }
 
 .tour h3 {
@@ -224,10 +227,9 @@ aside iframe {
 }
 
 .contactocontainer {
-  padding: 40px 0;
-	display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: flex;
+	justify-content: space-around;
+	padding: 40px;
 }
 
 .discografia {
@@ -310,6 +312,7 @@ footer h2 {
   font-size: 30px;
   margin: auto;
 	text-align: right;
+	padding: 0 0;
 }
 
 footer li {
@@ -350,7 +353,7 @@ i {
   text-align: center;
 }
 
-.contactofooter {
+	.contactofooter {
   display: flex;
   flex-direction: column;
 }
@@ -505,6 +508,7 @@ label {
   display: flex;
   flex-direction: row;
   align-items: center;
+	margin: 30px 0;
 }
 
 .number {
