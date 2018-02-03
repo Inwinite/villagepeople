@@ -126,6 +126,7 @@ h3 {
 .news {
 	border-top: 1px solid black;
 	margin-bottom: 20px;
+	padding-top: 20px;
 }
 
 article span {
@@ -236,11 +237,17 @@ main {
 
 
 /*aside*/
+aside {
+	display: flex;
+	flex-direction: column;
+}
+
 aside iframe {
-	display: block;
+
 	margin: 30px auto;
 	width: 300px;
 	height: 200px;
+	text-align: center;
 
 }
 
@@ -314,10 +321,11 @@ font-size: 10px;
 }
 
 footer {
-  width:100%;
-  margin: 0 auto;
-  display:block;
+  display: flex;
+  flex-direction: row-reverse;
+	justify-content: space-around;
 	background-color: #e5e5e5;
+
 }
 
 footer h2 {
@@ -330,6 +338,12 @@ footer li{
   display: inline-block;
 }
 
+footer span {
+	font-family: Oswald;
+	margin: 11px 0;
+	text-align: center;
+
+}
 i {
 	margin:10px;
 }
@@ -340,6 +354,11 @@ i {
 
 	text-align: center;
 
+}
+
+.contactofooter {
+	display: flex;
+	flex-direction: column;
 }
 .bannerbio1 {
 	width: 100%;
