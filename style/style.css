@@ -183,12 +183,8 @@ nav > ul > li  {
 
 nav > ul > li:hover {
 	background-color: grey;
-<<<<<<< HEAD
-	opacity: 0.5;
+  opacity: 0.5;
 	transition: background-color 0.5s ease-in;
-=======
-
->>>>>>> contransicion
 }
 
 
@@ -348,7 +344,25 @@ i {
 	margin:10px;
 }
 
+.grid {
+	margin: 50px;
+	display: grid;
+	grid-template-columns: 50% auto;
+}
+.grid img {
 
+	max-width: 400px;
+	max-height: 400px;
+	margin: 20px;
+}
+
+.grid p {
+	font-size: 20px;
+
+}
+.a, .d, .e, .h {
+	margin: auto;
+}
 
 .redessociales {
 
@@ -394,10 +408,7 @@ i {
 	width: auto;
 }
 
-.banbio1 {
-  height: 50%;
-  width:auto;
-}
+
 
 .tourposter  {
 	width: 70%;
