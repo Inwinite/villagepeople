@@ -98,7 +98,7 @@ a  {
 }
 
 h1 {
-	width: 50%;
+	width: auto;
 	display: inline-block;
 	line-height: 100%;
 	font-size: 60px;
@@ -164,12 +164,12 @@ header {
   }
 
 nav {
-  width: 50%;
+  width: auto;
   margin-top:37px;
 
 	}
 
-nav > ul > li {
+nav > ul > li  {
   font-family: 'Righteous', cursive;
   font-size: 20px;
   display: inline-block;
@@ -201,7 +201,7 @@ nav li > ul {
 	left: 0;
 	display: none;
 	padding: 10px;
-	
+
 }
 
 nav > ul > li:nth-child(2) {
@@ -348,30 +348,12 @@ i {
 	background-size: 100%;
   background-position-y:-110px;
 }
-.fa {
-	transition: color 0.5s ease-in;
-}
 
-<<<<<<< HEAD
+
 .fa-facebook-square:hover, .fa-twitter-square:hover, .fa-youtube-square:hover    {
   color:White;
 	transition: color 0.5s ease-in;
 }
-
-
-=======
-.fa-facebook-square:hover {
-  color:grey;
-}
-
-.fa-twitter-square:hover {
-  color:grey;
-}
-
-.fa-youtube-square:hover {
-  color:grey;
-}
->>>>>>> contransicion
 
 .merchan {
 	text-align: center;
@@ -382,6 +364,7 @@ i {
 	display: inline-block;
   width: 200px;
 	margin: 20px 20px;
+
 
 }
 
