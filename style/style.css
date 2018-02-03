@@ -79,11 +79,7 @@ table {
 
 /*general*/
 
-.contactocontainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 
 a {
   text-decoration: none;
@@ -115,11 +111,6 @@ h3 {
   padding-bottom: 20px;
 }
 
-.news {
-  border-top: 1px solid black;
-  margin-bottom: 20px;
-  padding-top: 20px;
-}
 
 article span {
   display: block;
@@ -204,9 +195,6 @@ nav li>ul>li {
   transition: background-color 0.5s ease-in;
 }
 
-.contactocontainer {
-  padding: 40px 0;
-}
 
 main {
   width: 100%;
@@ -227,6 +215,19 @@ aside iframe {
   width: 300px;
   height: 200px;
   text-align: center;
+}
+
+.news {
+  border-top: 1px solid black;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.contactocontainer {
+  padding: 40px 0;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .discografia {
@@ -262,6 +263,7 @@ aside iframe {
   width: 333px;
   height: 250px;
 }
+
 
 th {
   padding: 5px;
@@ -300,13 +302,14 @@ ol li {
 footer {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #e5e5e5;
 }
 
 footer h2 {
   font-size: 30px;
   margin: auto;
+	text-align: right;
 }
 
 footer li {
