@@ -83,6 +83,7 @@ table {
 a {
   text-decoration: none;
   color: black;
+  padding: 10px;
 }
 
 h1 {
@@ -165,13 +166,14 @@ nav>ul>li {
   transition: background-color 0.5s ease-in;
 }
 
-nav>ul>li:hover {
+nav>ul>li>a:hover {
   background-color: grey;
-  opacity: 0.5;
   transition: background-color 0.5s ease-in;
+
 }
 
-nav li>ul>li:hover {
+nav li>ul>li>a:hover {
+
   background-color: #e5e5e5;
   transition: background-color 0.5s ease-in;
 }
@@ -181,17 +183,17 @@ nav li>ul {
   left: 0;
   display: none;
   padding: 10px;
+  background:rgba(255,255,255,0.5);
 }
 
 nav>ul>li:nth-child(2) {
   cursor: pointer;
 }
 
-nav ul li:hover ul {
+nav ul li:hover ul  {
   display: block;
-  background-color: white;
   margin-top: 10px;
-}
+  }
 
 nav li>ul>li {
   padding: 15px;
